@@ -2,8 +2,8 @@
 
 namespace VendorName\Skeleton\Providers;
 
-use Spatie\LaravelPackageTools\PackageServiceProvider;
 use Spatie\LaravelPackageTools\Package;
+use Spatie\LaravelPackageTools\PackageServiceProvider;
 
 class SkeletonServiceProvider extends PackageServiceProvider
 {
