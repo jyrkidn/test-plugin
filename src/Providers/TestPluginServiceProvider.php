@@ -11,6 +11,7 @@ class TestPluginServiceProvider extends PackageServiceProvider
     {
         $package
             ->name('test-plugin')
+            ->setBasePath(__DIR__ . '/../')
             ->hasConfigFile()
             ->hasMigration('create_package_table');
     }
