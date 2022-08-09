@@ -3,8 +3,8 @@
 namespace Jyrkidn\TestPlugin\Tests;
 
 use Illuminate\Database\Eloquent\Factories\Factory;
-use Orchestra\Testbench\TestCase as Orchestra;
 use Jyrkidn\TestPlugin\Providers\TestPluginServiceProvider;
+use Orchestra\Testbench\TestCase as Orchestra;
 
 class TestCase extends Orchestra
 {
