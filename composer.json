@@ -1,12 +1,12 @@
 {
-    "name": ":vendor_slug/:package_slug",
-    "description": ":package_description",
+    "name": "jyrkidn/test-plugin",
+    "description": "This is my package test-plugin",
     "keywords": [
-        ":vendor_name",
+        "jyrkidn",
         "laravel",
-        ":package_slug"
+        "test-plugin"
     ],
-    "homepage": "https://github.com/:vendor_slug/:package_slug",
+    "homepage": "https://github.com/jyrkidn/test-plugin",
     "license": "MIT",
     "require": {
         "php": "^8.0",
@@ -26,19 +26,19 @@
     },
     "autoload": {
         "psr-4": {
-            "VendorName\\Skeleton\\": "src",
-            "VendorName\\Skeleton\\Database\\Factories\\": "database/factories"
+            "Jyrkidn\\TestPlugin\\": "src",
+            "Jyrkidn\\TestPlugin\\Database\\Factories\\": "database/factories"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "VendorName\\Skeleton\\Tests\\": "tests"
+            "Jyrkidn\\TestPlugin\\Tests\\": "tests"
         }
     },
     "extra": {
         "laravel": {
             "providers": [
-                "VendorName\\Skeleton\\Providers\\SkeletonServiceProvider"
+                "Jyrkidn\\TestPlugin\\Providers\\TestPluginServiceProvider"
             ]
         }
     },
